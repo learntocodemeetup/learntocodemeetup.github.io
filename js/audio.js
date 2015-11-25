@@ -129,40 +129,52 @@
   
   
   $(".character").on("click", function() {
-    $(".character").removeClass('selected');
    
-    
-    if ( $(this).hasClass("c3po") ) {
-       $(this).addClass('selectedC3po');
-        selectedCharacter = 0;
-    } else if ( $(this).hasClass("chewbacca") ) {
-        $(this).addClass('selectedChewbacca');
-        selectedCharacter = 1;
-    } else if ( $(this).hasClass("darthvader") ) {
-        $(this).addClass('selectedDarthVader');
-        selectedCharacter = 2;
-    } else if ( $(this).hasClass("han") ) {
-        $(this).addClass('selectedHan');
-        selectedCharacter = 3;
-    } else if ( $(this).hasClass("leia") ) {
-        $(this).addClass('selectedLeia');
-        selectedCharacter = 4;
-    } else if ( $(this).hasClass("luke") ) {
-       $(this).addClass('selectedLuke');
-        selectedCharacter = 5;
-    } else if ( $(this).hasClass("r2d2") ) {
-       $(this).addClass('selectedR2d2');
-        selectedCharacter = 6;
-    } else if ( $(this).hasClass("stormtrooper") ) {
-       $(this).addClass('selectedStormtrooper');
-        selectedCharacter = 7;
-    } else if ( $(this).hasClass("obiwan") ) {
-       $(this).addClass('selectedObiwan');
-        selectedCharacter = 8;
-    } else if ( $(this).hasClass("yoda") ) {
-       $(this).addClass('selectedYoda');
-        selectedCharacter = 9;
-    }
+    var character = $(this).data('character'); // c3po, chewbacca etc
+
+    $(this).addClass('selected-' + character);
+
+    switch (character) {
+      case "c3po":
+      selectedCharacter = 0;
+      break;
+
+      case "chewbacca":
+      selectedCharacter = 1;
+      break;
+
+      case "darth-vader":
+      selectedCharacter = 2;
+      break;
+
+      case "han":
+      selectedCharacter = 3;
+      break;
+
+      case "leia":
+      selectedCharacter = 4;
+      break;
+
+      case "luke":
+      selectedCharacter = 5;
+      break;
+
+      case "r2d2":
+      selectedCharacter = 6;
+      break;
+
+      case "stormtrooper":
+      selectedCharacter = 7;
+      break;
+
+      case "obi-wan":
+      selectedCharacter = 8;
+      break;
+
+      case "yoda":
+      selectedCharacter = 9;
+      break;
+    } 
     
     stopSound();
     playSound(selectedCharacter);
@@ -180,4 +192,10 @@
   init();
 
 })();
+
+
+
+
+
+
 

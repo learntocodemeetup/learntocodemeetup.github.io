@@ -39,45 +39,55 @@ body {
   margin: 10px;
 }
 
-.selectedC3po {
+.selected-c3po {
     animation: glowC3po .2s linear 1 forwards;
 }
 
-.selectedChewbacca {
+.selected-chewbacca {
     animation: glowChewbacca .2s linear 1 forwards;
 }
 
-.selectedDarthVader {
+.selected-darth-vader {
     animation: glowDarthVader .2s linear 1 forwards;
 }
 
-.selectedHan {
+.selected-han {
     animation: glowHan .2s linear 1 forwards;
 }
 
-.selectedLeia {
+.selected-leia {
     animation: glowLeia .2s linear 1 forwards;
 }
 
-.selectedLuke {
+.selected-luke {
     animation: glowLuke .2s linear 1 forwards;
 }
 
-.selectedR2d2 {
+.selected-r2d2 {
     animation: glowR2d2 .2s linear 1 forwards;
 }
 
-.selectedStormtrooper {
+.selected-stormtrooper {
     animation: glowStormtrooper .2s linear 1 forwards;
 }
 
-.selectedObiwan {
+.selected-obi-wan {
     animation: glowObiwan .2s linear 1 forwards;
 }
 
-.selectedYoda {
+.selected-yoda {
     animation: glowYoda .2s linear 1 forwards;
 }
+
+/*The ideal*/
+
+/*@keyframe glow {
+  100% {
+    opacity: 1;
+    -webkit-filter: drop-shadow(0 0 15px $lightsabreColor));
+    transform: scale(1.1, 1.1);
+  }
+}*/
 
 @keyframes glowC3po {
   100% {
