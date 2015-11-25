@@ -1,0 +1,10 @@
+<svg width="120" height="120" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
+
+	<title>luke</title>
+
+	<g class="character luke" fill="none" fill-rule="evenodd">
+		<circle class="main-head highlight" fill="#FBCEA3" cx="59.582" cy="59.686" r="59.5"/>
+		<path class="bangs highlight" d="M4.737 35.992C12.85 16.46 28.78 7.202 41.123 2.962 52.03-.788 60.03.178 60.03.178S60.14 53.73.18 55.958c.598-10.564 2.2-14.29 4.557-19.967v.003z" fill="#C19F55"/>
+		<path class="bangs highlight" d="M98.455 14.59C92.095 9.15 84.77 5.413 78.563 3.28 67.657-.465 59.32.137 59.32.137s-.342 54.622 59.618 56.847c-.61-19.68-10.522-33.875-20.483-42.394z" fill="#C19F55"/>
+	</g>
+</svg>

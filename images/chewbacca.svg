@@ -1,0 +1,9 @@
+<svg width="120" height="121" viewBox="0 0 120 121" xmlns="http://www.w3.org/2000/svg">
+
+	<title>chewbacca</title>
+
+	<g class="character chewbacca" fill="none" fill-rule="evenodd">
+		<path class="main-head highlight" d="M118.998 60l.002-.5C119 26.64 92.36 0 59.5 0S0 26.64 0 59.5c0 .226 0 .452.004.678l.07 60.82 117.985-.082L119.08 60h-.082z" fill="#694A2F"/>
+		<path class="nose highlight" d="M73.497 86.084s0-13.873-14.217-13.85c-14.217.023-14.777 13.757-14.777 13.757l28.994.095z" fill="#000"/>
+	</g>
+</svg>

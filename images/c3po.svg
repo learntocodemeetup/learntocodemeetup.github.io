@@ -1,0 +1,10 @@
+<svg width="120" height="119" viewBox="0 0 120 119" xmlns="http://www.w3.org/2000/svg">
+
+<title>c3po</title>
+
+	<g class="character c3po" fill="none" fill-rule="evenodd">
+		<circle class="main-head highlight" fill="#E6C36B" cx="60" cy="59.5" r="59.5"/>
+		<circle class="left-eye highlight" fill="#FAFAFA" cx="36.5" cy="43.5" r="12.5"/>
+		<circle class="right-eye highlight" fill="#FAFAFA" cx="82.5" cy="43.5" r="12.5"/>
+	</g>
+</svg>

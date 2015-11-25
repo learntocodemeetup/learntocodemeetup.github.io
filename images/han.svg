@@ -1,0 +1,9 @@
+<svg width="120" height="120" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
+
+	<title>han</title>
+
+	<g class="character han" fill="none" fill-rule="evenodd">
+		<circle class="main-head highlight" fill="#FBCEA3" cx="59.582" cy="59.686" r="59.5"/>
+		<path class="bangs highlight" d="M59.46.13c-2.006-.14-9.137-.33-18.336 2.83C28.78 7.202 12.85 16.46 4.737 35.992 2.38 41.666.777 45.392.18 55.956 49.058 54.142 58.02 18.22 59.66 5.004c1.57 13.433 10.333 50.164 59.278 51.98-.61-19.68-10.522-33.875-20.483-42.394-6.36-5.44-13.685-9.177-19.892-11.31C68.483-.182 60.597.07 59.46.13z" fill="#694A2F"/>
+	</g>
+</svg>

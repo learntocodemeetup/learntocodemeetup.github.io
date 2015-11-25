@@ -1,0 +1,17 @@
+<svg width="120" height="120" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>Group</title>
+	<defs>
+		<circle id="a" cx="59.582" cy="59.686" r="59.5"/>
+	</defs>
+	<g fill="none" fill-rule="evenodd">
+		<mask id="b" fill="#fff">
+			<use xlink:href="#a"/>
+		</mask>
+		<use fill="#FFDFC0" xlink:href="#a"/>
+		<path d="M34 120.15s3.644-33.454 6.37-36.095c2.724-2.64 34.86-3.39 37.988-.055 3.127 3.336 6.99 36.15 6.99 36.15H34z" stroke="#F6F6F6" stroke-width="8" mask="url(#b)"/>
+		<path d="M-9 72s24.17 41 68.475 41c44.307 0 67.998-41 67.998-41" stroke="#F6F6F6" stroke-width="20" mask="url(#b)"/>
+		<path d="M36 102l47.33.437" stroke="#F6F6F6" stroke-width="7" mask="url(#b)"/>
+		<path d="M17.282 16.903c.55-.788 12.763-12.116 24.893-15.15C52.895-.926 60.85.044 60.85.044s0 20.402-56.017 40.35c-3.4 1.137-1.153.416-1.74.625 3.672-13.5 13.64-23.327 14.19-24.115z" fill="#F6F6F6" mask="url(#b)"/>
+		<path d="M90.73 8.21C76.062-.404 60-.49 60-.49s0 20.706 56.066 41.414C112.478 28.51 102.226 14.96 90.73 8.21z" fill="#F6F6F6" mask="url(#b)"/>
+	</g>
+</svg>
