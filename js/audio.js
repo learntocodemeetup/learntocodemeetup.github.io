@@ -15,9 +15,7 @@
 
       ],
       bufferReady,
-      playing,
-      startTime,
-      duration;
+      playing;
   
   function finishedLoading(bufferList) {
     
@@ -36,11 +34,8 @@
           soundSource = context.createBufferSource();
           soundSource.buffer = bufferLoader.bufferList[bufferNum];
           soundSource.connect(context.destination);
-          durration = bufferLoader.bufferList[bufferNum].durration;
-          startTime = context.currentTime;
-          soundSource.start(context.currentTime);
-          console.log("Start time: " + startTime);
-          console.log("Duration: " + durration);
+           soundSource.start(context.currentTime);
+
           playing = true;
       }
       // play the source now
@@ -50,24 +45,6 @@
   function stopSound() {
     if(playing)
       soundSource.stop(context.currentTime);
-      console.log("Stop aaa Playing");
-    if(context.currentTime < startTime + duration){
-      soundSource.stop(context.currentTime);
-      console.log("Stop Playing");
-    }
-      
-      // stop the source now
-      //onsole.log(context.state);
-      //if(isPlaying)
-        console.log("Playing");
-       // Create a gain node.
-      /*var gainNode = context.createGain();
-      // Connect the source to the gain node.
-      soundSource.connect(gainNode);
-      // Connect the gain node to the destination.
-      gainNode.connect(context.destination);
-      //gainNode.gain.value = 0;
-        //soundSource.stop(context.currentTime);*/
   }  
   
   // BufferLoader is a constructor function, similar to a class/blueprint. It create instances of objects using the 'new' keyword.
