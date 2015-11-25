@@ -1,0 +1,10 @@
+<svg width="122" height="62" viewBox="0 0 122 62" xmlns="http://www.w3.org/2000/svg">
+
+	<title>r2d2</title>
+
+	<g class="character r2d2" fill="none" fill-rule="evenodd">
+		<path class="main-head highlight" d="M121.35 61.145S120.407.917 60.95.855C1.493.793.65 61.145.65 61.145h120.7z" fill="#E7E9EA"/>
+		<circle class="black-circle highlight" fill="#0B0C0B" cx="63.307" cy="30.312" r="15"/>
+		<circle class="red-circle highlight" fill="#F02927" cx="82.307" cy="50.312" r="6"/>
+	</g>
+</svg>
