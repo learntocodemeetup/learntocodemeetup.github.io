@@ -1,0 +1,171 @@
+html, body {
+  height: 100%;
+}
+
+body {
+  background-color: #111;
+  margin: 0;
+}
+
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  max-width: 850px;
+  margin: 0 auto;
+  height: 100vh;
+}
+
+.select {
+  margin: 35px 0;
+  display: block;
+  flex-basis: 100%;
+}
+
+.characters {
+  opacity: 0;
+  transition: opacity, 2s;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.character {
+  background-repeat: no-repeat;
+  background-size: 100%;
+  opacity: .2;
+  display: inline-block;
+  margin: 10px;
+}
+
+.selectedC3po {
+    animation: glowC3po .2s linear 1 forwards;
+}
+
+.selectedChewbacca {
+    animation: glowChewbacca .2s linear 1 forwards;
+}
+
+.selectedDarthVader {
+    animation: glowDarthVader .2s linear 1 forwards;
+}
+
+.selectedHan {
+    animation: glowHan .2s linear 1 forwards;
+}
+
+.selectedLeia {
+    animation: glowLeia .2s linear 1 forwards;
+}
+
+.selectedLuke {
+    animation: glowLuke .2s linear 1 forwards;
+}
+
+.selectedR2d2 {
+    animation: glowR2d2 .2s linear 1 forwards;
+}
+
+.selectedStormtrooper {
+    animation: glowStormtrooper .2s linear 1 forwards;
+}
+
+.selectedObiwan {
+    animation: glowObiwan .2s linear 1 forwards;
+}
+
+.selectedYoda {
+    animation: glowYoda .2s linear 1 forwards;
+}
+
+@keyframes glowC3po {
+  100% {
+    opacity: 1;
+    -webkit-filter: drop-shadow(0 0 15px rgba(250, 255, 116,.5));
+    transform: scale(1.1, 1.1);
+  }
+}
+
+@keyframes glowChewbacca {
+  100% {
+    opacity: 1;
+    -webkit-filter: drop-shadow(0 0 15px rgba(0, 255, 0,.5));
+    transform: scale(1.1, 1.1);
+  }
+}
+
+@keyframes glowDarthVader {
+  100% {
+    opacity: 1;
+    -webkit-filter: drop-shadow(0 0 15px rgba(237, 0, 0,.5));
+    transform: scale(1.1, 1.1);
+  }
+}
+
+@keyframes glowHan {
+  100% {
+    opacity: 1;
+    -webkit-filter: drop-shadow(0 0 15px rgba(0, 104, 255,.5)); 
+    transform: scale(1.1, 1.1);
+  }
+}
+
+@keyframes glowLeia {
+  100% {
+    opacity: 1;
+    -webkit-filter: drop-shadow(0 0 15px rgba(250, 250, 249,.5)); 
+    transform: scale(1.1, 1.1);
+  }
+}
+
+@keyframes glowLuke {
+  100% {
+    opacity: 1;
+    -webkit-filter: drop-shadow(0 0 15px rgba(0, 255, 0,.5)); 
+    transform: scale(1.1, 1.1);
+  }
+}
+
+@keyframes glowR2d2 {
+  100% {
+    opacity: 1;
+    -webkit-filter: drop-shadow(0 0 15px rgba(114, 0, 151, .7));
+    transform: scale(1.1, 1.1);
+  }
+}
+
+@keyframes glowStormtrooper {
+  100% {
+    opacity: 1;
+    -webkit-filter: drop-shadow(0 0 15px rgba(237, 0, 0,.5));  
+    transform: scale(1.1, 1.1);
+  }
+}
+
+@keyframes glowObiwan {
+  100% {
+    opacity: 1;
+    -webkit-filter: drop-shadow(0 0 15px rgba(0, 104, 255, .6));  
+    transform: scale(1.1, 1.1);
+  }
+}
+
+@keyframes glowYoda {
+  100% {
+    opacity: 1;
+    -webkit-filter: drop-shadow(0 0 15px rgba(0, 255, 0,.5));  
+    transform: scale(1.1, 1.1);
+  }
+}
+
+/* 
+ light sabers
+  red: rgba(237, 0, 0,.5)
+  green: rgba(0, 255, 0,.5)
+  orange: rgba(247, 145, 0,.5)
+  yellow: rgba(250, 255, 116,.5)
+  purple: rgba(114, 0, 151,.5)
+  white: rgba(250, 250, 249,.5)
+  blue: rgba(0, 104, 255,.5)
+*/
