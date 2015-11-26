@@ -39,44 +39,44 @@ body {
   margin: 10px;
 }
 
-.selected-c3po {
-    animation: glowC3po .2s linear 1 forwards;
+.selected[data-character='c3po'] {
+   animation: glow-c3po .2s linear 1 forwards;
 }
 
-.selected-chewbacca {
-    animation: glowChewbacca .2s linear 1 forwards;
+.selected[data-character='chewbacca'] {
+   animation: glow-chewbacca .2s linear 1 forwards;
 }
 
-.selected-darth-vader {
-    animation: glowDarthVader .2s linear 1 forwards;
+.selected[data-character='darth-vader'] {
+    animation: glow-darth-vader .2s linear 1 forwards;
 }
 
-.selected-han {
-    animation: glowHan .2s linear 1 forwards;
+.selected[data-character='han'] {
+    animation: glow-han .2s linear 1 forwards;
 }
 
-.selected-leia {
-    animation: glowLeia .2s linear 1 forwards;
+.selected[data-character='leia'] {
+    animation: glow-leia .2s linear 1 forwards;
 }
 
-.selected-luke {
-    animation: glowLuke .2s linear 1 forwards;
+.selected[data-character='luke'] {
+    animation: glow-luke .2s linear 1 forwards;
 }
 
-.selected-r2d2 {
-    animation: glowR2d2 .2s linear 1 forwards;
+.selected[data-character='r2d2'] {
+    animation: glow-r2d2 .2s linear 1 forwards;
 }
 
-.selected-stormtrooper {
-    animation: glowStormtrooper .2s linear 1 forwards;
+.selected[data-character='stormtrooper'] {
+    animation: glow-stormtrooper .2s linear 1 forwards;
 }
 
-.selected-obi-wan {
-    animation: glowObiwan .2s linear 1 forwards;
+.selected[data-character='obi-wan'] {
+    animation: glow-obi-wan .2s linear 1 forwards;
 }
 
-.selected-yoda {
-    animation: glowYoda .2s linear 1 forwards;
+.selected[data-character='yoda'] {
+    animation: glow-yoda .2s linear 1 forwards;
 }
 
 /*The ideal*/
@@ -89,7 +89,7 @@ body {
   }
 }*/
 
-@keyframes glowC3po {
+@keyframes glow-c3po {
   100% {
     opacity: 1;
     -webkit-filter: drop-shadow(0 0 15px rgba(250, 255, 116,.5));
@@ -97,7 +97,7 @@ body {
   }
 }
 
-@keyframes glowChewbacca {
+@keyframes glow-chewbacca {
   100% {
     opacity: 1;
     -webkit-filter: drop-shadow(0 0 15px rgba(0, 255, 0,.5));
@@ -105,7 +105,7 @@ body {
   }
 }
 
-@keyframes glowDarthVader {
+@keyframes glow-darth-vader {
   100% {
     opacity: 1;
     -webkit-filter: drop-shadow(0 0 15px rgba(237, 0, 0,.5));
@@ -113,7 +113,7 @@ body {
   }
 }
 
-@keyframes glowHan {
+@keyframes glow-han {
   100% {
     opacity: 1;
     -webkit-filter: drop-shadow(0 0 15px rgba(0, 104, 255,.5)); 
@@ -121,7 +121,7 @@ body {
   }
 }
 
-@keyframes glowLeia {
+@keyframes glow-leia {
   100% {
     opacity: 1;
     -webkit-filter: drop-shadow(0 0 15px rgba(250, 250, 249,.5)); 
@@ -129,7 +129,7 @@ body {
   }
 }
 
-@keyframes glowLuke {
+@keyframes glow-luke {
   100% {
     opacity: 1;
     -webkit-filter: drop-shadow(0 0 15px rgba(0, 255, 0,.5)); 
@@ -137,7 +137,7 @@ body {
   }
 }
 
-@keyframes glowR2d2 {
+@keyframes glow-r2d2 {
   100% {
     opacity: 1;
     -webkit-filter: drop-shadow(0 0 15px rgba(114, 0, 151, .7));
@@ -145,7 +145,7 @@ body {
   }
 }
 
-@keyframes glowStormtrooper {
+@keyframes glow-stormtrooper {
   100% {
     opacity: 1;
     -webkit-filter: drop-shadow(0 0 15px rgba(237, 0, 0,.5));  
@@ -153,7 +153,7 @@ body {
   }
 }
 
-@keyframes glowObiwan {
+@keyframes glow-obi-wan {
   100% {
     opacity: 1;
     -webkit-filter: drop-shadow(0 0 15px rgba(0, 104, 255, .6));  
@@ -161,7 +161,7 @@ body {
   }
 }
 
-@keyframes glowYoda {
+@keyframes glow-yoda {
   100% {
     opacity: 1;
     -webkit-filter: drop-shadow(0 0 15px rgba(0, 255, 0,.5));  

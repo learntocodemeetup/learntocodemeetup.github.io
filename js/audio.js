@@ -1,4 +1,4 @@
-(function() {
+ (function() {
   
   var context = new AudioContext(),
       soundBitesList = [
@@ -128,11 +128,13 @@
   }
   
   
-  $(".character").on("click", function() {
+  $('.character').on('click', function() {
    
     var character = $(this).data('character'); // c3po, chewbacca etc
 
-    $(this).addClass('selected-' + character);
+    // $(this).addClass('selected-' + character);
+    $('.character').removeClass('selected');
+    $(this).addClass('selected');
 
     switch (character) {
       case "c3po":
