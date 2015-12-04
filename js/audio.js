@@ -14,6 +14,19 @@
         'sounds/yoda.mp3', // yoda 9
 
       ],
+      soundBitesListMusic = [
+        'music/StarWarsThemeSongByJohnWilliams.mp3', //c3po 0
+        /*'sounds/chewbacca.mp3', //chewbacca 1
+        'sounds/darth-vader.mp3', // darthvader 2
+        'sounds/han-solo.mp3', //han 3
+        'sounds/leia.mp3', //leia 4
+        'sounds/luke.mp3', //luke 5
+        'sounds/r2d2.mp3', //r2d2 6
+        'sounds/storm-trooper-blaster.mp3', //stormtrooper 7
+        'sounds/obi-wan.mp3', //obiwan 8 
+        'sounds/yoda.mp3', // yoda 9*/
+
+      ],
       bufferReady,
       playing;
   
@@ -29,6 +42,14 @@
     bufferReady = true;
   }  
   
+  function finishedLoadingMusic(bufferList) {
+    
+          soundSource = context.createBufferSource();
+          soundSource.buffer = bufferLoaderMusic.bufferList[0];
+          soundSource.connect(context.destination);
+          soundSource.start(context.currentTime);
+  }  
+
   function playSound(bufferNum) {
       if(bufferReady){
           soundSource = context.createBufferSource();
@@ -165,7 +186,13 @@
     
     bufferLoader = new BufferLoader(context, soundBitesList, finishedLoading);
 
+
+
     bufferLoader.load();
+
+    bufferLoaderMusic = new BufferLoader(context, soundBitesListMusic, finishedLoadingMusic);
+
+    bufferLoaderMusic.load();
   }
   
   init();
