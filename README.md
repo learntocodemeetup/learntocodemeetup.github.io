@@ -1,51 +1,60 @@
-# A new Star Wars game
+#Some notes taken 6 December 2015, with Lukas, Brianna, Daniel
 
-A bunch of noobs who don't know how to make games attempt to make a star wars game. 
+Should probably have a way to win
 
-They shall succeed.
+What is the ideal time for a game? Five minutes makes it easily playable for most people.
 
-Hello Kate, 
+Should there be one path to victory, i.e one stopping point, or should there be lots of stopping points that are considered successful. 
 
-This is a guide that will describe how to see this rad game that we have been making in the browser. 
+How does the choice of character effect the storyline? Does each character have a different story, or do they just influence the story. 
 
-Step 1: 
+Characters probably shouldn’t be able to talk/interact/fight with themselves!
 
-Open up the application "Terminal", not quite sure why it's called that but it sounds rather ominous really. 
+Battle of Hoth
 
-When you have this open, you will be in a directory, it will most likely be your 'home' directory. I suggest changing
-to your Desktop. You can do this by typing the following magical computer letters. 
+Game starts with the “Battle of Hoth” beginning. The rebel alliance characters i.e Luke, Han, Chewbacca, Leia etc are caught off guard. The empire characters Darth Vader, Stormtrooper start making the surprise attack on the rebel base. 
 
-`cd ~/Desktop`
+Perhaps we can have ‘timed events’ where all characters basically sync up, and then in between those events they take paths that lead away from the main story line. 
 
-When you are in this location of your computer you may then do the following:
+Possibly story path of a Stormtrooper
+Starts either on a Rebel Ship, or on the ground at Hoth
+Could either stay on the ground, or get in the AT-AT. 
 
-`git clone https://github.com/learntocodemeetup/learntocodemeetup.github.io.git `
+If they choose to go in an AT-AT they might get taken down by the harpoons and tow cabels. 
 
-This will hit the hyperdrive and fetch you the game (at the speed of light or perhaps a bit slower). 
+If the harpoon and tow cable is used, the stormtrooper (who is controlling the AT-AT) can either keep moving forward and fall down (end screen) or they can stop and get out. 
 
-Once that seems done - then you will need to change into that directory. 
+The stormtrooper then eventually makes its way into the rebel base. A choice here might be “Stay with Darth Vader or go on your own”.
 
-It will be something like ...
+If you go on your own, you find C3-PO and you can take him out. 
+Whether you hit him or miss him could be down to randomness. 
 
-I suggest typing in 
+If you hit him, then the ship won’t take off, because C3-PO isn’t there to fix it. 
 
-`cd learn` 
+Notes: Use randomness for events that could go either way, i.e shooting at someone. 
 
-and then pressing tab, to auto-complete. If it autocompletes, it's probably the right one. 
+Use music/sound effects to create tension/drama. 
 
-When you are in this directory type in 
+Rebel Alliance Characters - Han
 
-`python -m SimpleHTTPServer 8080`
+Starts at rebel base, becomes aware of threat via intelligence of imperial probe droids. 
 
-If this step doesn't work you might not have Python, but I think you should have it by default. You can check by typing in:
+Could choose to fix Millenium Falcon or abandon it and go with the rest of the fleet. 
 
-`python --version`
+(If he goes with the rest of the fleet he will end up not making it)
 
-Then go to the browser and type in:
+His “success” screen will be making it out of the base via the Millenium Falcon.
 
-`localhost:8080`
+Battle of Hoth Game Screens 
 
-If this works I have explained my instructions well, if not, you will have to use your imagination to see how wonderful our creation is. 
+Shield Generator/Shield Generator blowing up
+Darth Vader and Stormtrooper breaking in to base
+Stormtroopers setting up gun/gun being shot down
+Millenium Falcon taking off (success for Han, failure for Stormtrooper/Vader)	
 
-Daniel
+ 
+
+ 
+
+
 
